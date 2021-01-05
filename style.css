@@ -1,0 +1,62 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(34, 34, 34);
+  color: rgb(246, 255, 254);
+
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  margin: 0px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  box-shadow: 0px 5px 12px black;
+
+  color: rgb(246, 255, 254);
+  text-align: center;
+  background-color: rgb(49, 49, 49);
+}
+
+header h1 {
+  margin: 0px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  text-align: center;
+}
+
+#contentOfPage {
+  margin-top: 24px;
+}
+
+#slogan {
+  text-align: center;
+}
+.frame {
+  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  width: 24vw;
+  box-shadow: 2px 2px 8px rgb(10, 63, 238);
+  transition: box-shadow 0.5s, transform 1s, background-color 1s;
+}
+
+.frame:hover {
+  box-shadow: 2px 2px 14px rgb(10, 128, 238);
+  transform: scale(1.1, 1.1);
+  background-color: rgb(74, 74, 78);
+}
+
+.imageWrapper {
+  text-align: center;
+  padding-bottom: 12px;
+}
