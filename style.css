@@ -24,6 +24,8 @@ header h1 {
 }
 
 .title {
+  font-family: "Rubik", sans-serif;
+
   text-align: center;
   font-weight: bold;
   color: rgb(255, 255, 255);
@@ -39,6 +41,7 @@ header h1 {
 
 #slogan {
   text-align: center;
+  font-family: "Rubik", sans-serif;
 }
 .frame {
   margin: auto;
